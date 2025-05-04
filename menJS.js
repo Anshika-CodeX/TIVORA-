@@ -2734,7 +2734,7 @@ const products = [
   name: 'Skinny Stretch Jeans',
   brand: 'Saint Laurent',
   price: '₹42,000.00',
-  image: 'https://pantproject.com/cdn/shop/files/DSC6905.jpg?v=1744900836',
+  image: 'https://i.pinimg.com/originals/af/d0/41/afd041d86e5ddacdc6c20411ee2fb31d.jpg',
   category: 'jeans',
   inDemand: true,
   stock: 42,
