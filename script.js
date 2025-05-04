@@ -421,6 +421,34 @@ const products = [
         ]
       },
       {
+        id: 30,
+        category: 'Eye Makeup',
+        name: 'Baked Browns Eyeshadow Palette',
+        price: '₹2000.00',
+        image: 'https://is4.revolveassets.com/images/p4/n/uv/DOSR-WU13_V1.jpg',
+        hoverImage: 'https://is4.revolveassets.com/images/p4/n/uv/DOSR-WU13_V2.jpg',
+        description: 'This warm toned eye shadow palette features 5 ultra pigmented matte brown shades with a smooth buttery feel. The perfect palette for creating a variety of sultry smokey to everyday neutral eye looks..',
+        stock: 5,
+        reviews: [
+          { name: 'Ankita.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
+          { name: 'Sachin.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
+        ]
+      },
+      {
+        id: 31,
+        category: 'Eye Makeup',
+        name: 'Glam Lash Extension Kit',
+        price: '₹990.00',
+        image: 'https://is4.revolveassets.com/images/p4/n/uv/GMNE-WU12_V1.jpg',
+        hoverImage: 'https://is4.revolveassets.com/images/p4/n/uv/GMNE-WU12_V2.jpg',
+        description: 'Tired of applying a new lash for every occasion? Glamnetic is changing the game with the Natural Lash Extension Kit. It has all the tools you need to enhance your natural lashes for up to 5 days wear per lash, with an easy-to-use application - simply bond, lash, and seal.',
+        stock: 10,
+        reviews: [
+          { name: 'Ankita.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
+          { name: 'Sachin.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
+        ]
+      },
+      {
         id: 31,
         category: 'Lip Products',
         name: 'Lip Butter Balm',
