@@ -2608,7 +2608,7 @@ const products = [
   name: 'Linen Resort Shirt',
   brand: 'Orlebar Brown',
   price: '₹15,800.00',
-  image: 'https://ramrajcotton.in/cdn/shop/files/240524_ramraj0376.jpg?v=1743659622',
+  image: 'https://bananarepublic.gap.com/webcontent/0053/400/673/cn53400673.jpg',
   category: 'shirts',
   inDemand: true,
   stock: 45,
