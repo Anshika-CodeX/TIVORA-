@@ -363,6 +363,63 @@ const products = [
           { name: 'Jyoti R.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
         ]
       },
+
+      {
+        id: 27,
+        category: 'Eye Makeup',
+        name: 'Eye Set',
+        price: '₹999.00',
+        image: 'https://is4.fwrdassets.com/images/p/fw/45/PMCG-WU17_V2.jpg',
+        hoverImage: 'https://is4.fwrdassets.com/images/p/fw/45/PMCG-WU17_V1.jpg',
+        description: 'An iconic palette with ten cult-classic shadows that embellish the eyes with single-swipe saturation. Elevate your artistry with formulations that release infinitely smooth and extremely blendable pigments for seamless color transitions and unprecedented buildability.',
+        stock: 3,
+        reviews: [
+          { name: 'Sneha K.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
+          { name: 'Jyoti R.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
+        ]
+      },
+      {
+        id: 26,
+        category: 'Eye Makeup',
+        name: 'Waterproof Mascara',
+        price: '₹650.00',
+        image: 'https://cdn.fcglcdn.com/brainbees/images/products/583x720/18585713a.webp',
+        hoverImage: 'https://www.fashionlady.in/wp-content/uploads/2017/02/Best-waterproof-mascara-for-women.jpg',
+        description: 'This high-performance waterproof mascara stays put through swimming, workouts, and even the most emotional moments. The volumizing and lengthening formula creates dramatic lashes that won\'t smudge, flake, or run. The specially designed brush separates and coats each lash for clump-free volume that lasts all day and night.',
+        stock: 22,
+        reviews: [
+          { name: 'Sneha K.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
+          { name: 'Jyoti R.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
+        ]
+      },
+      {
+        id: 26,
+        category: 'Eye Makeup',
+        name: 'Waterproof Mascara',
+        price: '₹650.00',
+        image: 'https://cdn.fcglcdn.com/brainbees/images/products/583x720/18585713a.webp',
+        hoverImage: 'https://www.fashionlady.in/wp-content/uploads/2017/02/Best-waterproof-mascara-for-women.jpg',
+        description: 'This high-performance waterproof mascara stays put through swimming, workouts, and even the most emotional moments. The volumizing and lengthening formula creates dramatic lashes that won\'t smudge, flake, or run. The specially designed brush separates and coats each lash for clump-free volume that lasts all day and night.',
+        stock: 22,
+        reviews: [
+          { name: 'Sneha K.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
+          { name: 'Jyoti R.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
+        ]
+      },
+      {
+        id: 26,
+        category: 'Eye Makeup',
+        name: 'Waterproof Mascara',
+        price: '₹650.00',
+        image: 'https://cdn.fcglcdn.com/brainbees/images/products/583x720/18585713a.webp',
+        hoverImage: 'https://www.fashionlady.in/wp-content/uploads/2017/02/Best-waterproof-mascara-for-women.jpg',
+        description: 'This high-performance waterproof mascara stays put through swimming, workouts, and even the most emotional moments. The volumizing and lengthening formula creates dramatic lashes that won\'t smudge, flake, or run. The specially designed brush separates and coats each lash for clump-free volume that lasts all day and night.',
+        stock: 22,
+        reviews: [
+          { name: 'Sneha K.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
+          { name: 'Jyoti R.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
+        ]
+      },
       {
         id: 27,
         category: 'Lip Products',
