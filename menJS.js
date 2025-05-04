@@ -2650,7 +2650,7 @@ const products = [
   name: 'Flannel Check Shirt',
   brand: 'Filson',
   price: '₹14,200.00',
-  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9s0i_aWO99rCEWprWrCpi6sk6qfxLhbSl_Q&s',
+  image: 'https://i.pinimg.com/originals/18/7e/24/187e24e1564c9f9e9b58259087eb0dfb.jpg',
   category: 'shirts',
   inDemand: true,
   stock: 72,
