@@ -1857,26 +1857,6 @@ const products = [
       color: ['Black Dial/Black Bezel', 'Blue Dial/Blue Bezel', 'Black Dial/Fabric Strap']
   }
 },
-{
-  id: 191,
-  name: 'Skeleton Dial Watch',
-  brand: 'Zenith',
-  price: '₹550,000.00',
-  image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/z/e/zenith-defy-03-9300-3620-78-i001.jpg',
-  category: 'watches',
-  inDemand: true,
-  stock: 7,
-  bestSeller: false,
-  description: 'Avant-garde skeleton dial watch showcasing horological artistry. This exceptional timepiece features an openworked dial revealing the high-frequency El Primero movement, chronograph functionality, sapphire crystal case back, and a sophisticated fusion of technical innovation and artistic design.',
-  details: {
-      materials: 'Stainless steel case, sapphire crystal front and back, alligator leather strap',
-      fit: 'Case diameter: 42mm. Thickness: 14mm. Lug width: 22mm.',
-      care: 'Service every 5 years. Store in watch winder when not in use. Avoid magnetic fields.'
-  },
-  options: {
-      color: ['Silver Skeleton/Black Leather', 'Black Skeleton/Black Leather']
-  }
-},
 
 
 // Sunglasses (IDs 193-202)
