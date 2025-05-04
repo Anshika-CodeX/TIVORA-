@@ -576,11 +576,12 @@ const products = [
       {
         id: 42,
         category: 'Lip Products',
-        name: 'Nude Love Lip Palette',
+        name: 'Nude Natural Lips Kit',
+
         price: '₹600.00',
-        image: 'https://is4.revolveassets.com/images/p4/n/z/NDSX-WU153_V1.jpg',
-        hoverImage: 'https://is4.revolveassets.com/images/p4/n/z/NDSdX-WU153_V2.jpg',
-        description: 'This versatile lip palette features six complementary nude shades ranging from pale beige to deep brown. The creamy, highly pigmented formula applies smoothly and can be mixed to create custom colors for any skin tone or occasion. Includes a lip brush for precise application and a mirror for on-the-go touch-ups, making it perfect for travel or everyday use.',
+        image: 'https://is4.revolveassets.com/images/p4/n/uv/NDSX-WU141_V2.jpg',
+        hoverImage: 'https://is4.revolveassets.com/images/p4/n/uv/NDSX-WU141_V1.jpg',
+        description: 'This exclusive kit features three mini, GEL COLOR LIP + CHEEK BALMS in carefully curated shades to match their individual perfect nude lip color. Packaged in a 100% reusable, portable, mini tin with mirror, this three-piece mini lip kit contains everything you need to create a perfectly juicy pout on-the-go.',
         stock: 15,
         reviews: [
           { name: 'Reena J.', date: '2025-04-17', rating: 5, comment: 'Love being able to mix shades for my perfect nude! Great pigmentation.' },
