@@ -379,14 +379,14 @@ const products = [
         ]
       },
       {
-        id: 26,
+        id: 28,
         category: 'Eye Makeup',
-        name: 'Waterproof Mascara',
-        price: '₹650.00',
-        image: 'https://cdn.fcglcdn.com/brainbees/images/products/583x720/18585713a.webp',
-        hoverImage: 'https://www.fashionlady.in/wp-content/uploads/2017/02/Best-waterproof-mascara-for-women.jpg',
-        description: 'This high-performance waterproof mascara stays put through swimming, workouts, and even the most emotional moments. The volumizing and lengthening formula creates dramatic lashes that won\'t smudge, flake, or run. The specially designed brush separates and coats each lash for clump-free volume that lasts all day and night.',
-        stock: 22,
+        name: 'Freestyle Color Cream',
+        price: '₹2,029.47',
+        image: 'https://is4.revolveassets.com/images/p4/n/uv/TDRV-WU7_V2.jpg',
+        hoverImage: 'https://is4.revolveassets.com/images/p4/n/uv/TDRV-WU7_V3.jpg',
+        description: 'The silky formula glides on effortlessly, leaving behind a high-shimmer, non-toxic, and buildable glitter makeup look for all-day use. This rose gold creamy eyeshadow can go anywhere-face, body, edges, or hair. Mix and match our shimmery shades to create combinations that are unique to you.',
+        stock: 12,
         reviews: [
           { name: 'Sneha K.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
           { name: 'Jyoti R.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
