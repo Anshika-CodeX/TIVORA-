@@ -3081,26 +3081,6 @@ const products = [
       color: ['Blue Dial/Blue Bezel', 'Black Dial/Black Bezel', 'White Dial/Blue Bezel']
   }
 },
-{
-  id: 252,
-  name: 'Dress Watch with Leather Strap',
-  brand: 'Jaeger-LeCoultre',
-  price: '₹750,000.00',
-  image: 'https://img.jaeger-lecoultre.com/mega-menu-list-3/0a652a122ea0365fd7a0e11c5d4097c676a251ea.jpg',
-  category: 'watches',
-  inDemand: true,
-  stock: 12,
-  bestSeller: true,
-  description: 'Ultra-thin dress watch with sophisticated elegance. Features a hand-finished in-house movement, guilloché dial with applied hour markers, dauphine hands, sapphire crystal case back, and alligator leather strap for refined formal style.',
-  details: {
-      materials: 'Rose gold case, sapphire crystal, alligator leather strap',
-      fit: 'Case diameter: 40mm. Thickness: 7.5mm. Lug width: 20mm.',
-      care: 'Service every 5 years. Store in watch winder when not in use. Avoid water exposure.'
-  },
-  options: {
-      color: ['Silver Dial/Black Leather', 'Champagne Dial/Brown Leather']
-  }
-},
 
 {
   id: 254,
