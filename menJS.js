@@ -2545,7 +2545,7 @@ const products = [
   name: 'Graphic Print Muscle Tank',
   brand: 'Diesel',
   price: '₹7,800.00',
-  image: 'https://m.media-amazon.com/images/I/71C8VMJHgkL._AC_UY1100_.jpg',
+  image: 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d0254bb5-aa3d-403d-9319-8324c556aa8f/dri-fit-vintage-graphic-fitness-muscle-tank-8XpTmD.png',
   category: 'tanks',
   inDemand: true,
   stock: 45,
