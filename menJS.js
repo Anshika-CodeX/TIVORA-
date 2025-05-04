@@ -2629,7 +2629,7 @@ const products = [
   name: 'Japanese Denim Shirt',
   brand: 'Visvim',
   price: '₹32,000.00',
-  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqs0WAs9RDStysZS_j4bL5lP2fSornoj53VA&s',
+  image: 'https://media.endclothing.com/media/f_auto,q_auto:eco/prodmedia/media/catalog/product/0/2/02-09-2021_ML_121205007004-IN_7_1.jpg',
   category: 'shirts',
   inDemand: false,
   stock: 28,
