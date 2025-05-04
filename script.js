@@ -393,35 +393,35 @@ const products = [
         ]
       },
       {
-        id: 26,
+        id: 29,
         category: 'Eye Makeup',
-        name: 'Waterproof Mascara',
-        price: '₹650.00',
-        image: 'https://cdn.fcglcdn.com/brainbees/images/products/583x720/18585713a.webp',
-        hoverImage: 'https://www.fashionlady.in/wp-content/uploads/2017/02/Best-waterproof-mascara-for-women.jpg',
-        description: 'This high-performance waterproof mascara stays put through swimming, workouts, and even the most emotional moments. The volumizing and lengthening formula creates dramatic lashes that won\'t smudge, flake, or run. The specially designed brush separates and coats each lash for clump-free volume that lasts all day and night.',
-        stock: 22,
+        name: 'Brow & Brag Brow And Eye Kit',
+        price: '₹2,452.27',
+        image: 'https://is4.revolveassets.com/images/p4/n/uv/ABEV-WU262_V1.jpg',
+        hoverImage: 'https://is4.revolveassets.com/images/p4/n/z/ABEV-WU1_V3.jpg',
+        description: ' Brow & Brag Duo truly delivers luscious fullness and volume in a swipe, plus instant brow taming for that stunning, no-makeup look you need to seize the summer day in seconds. Full-sized Lash Brag Mascara sweeps on a voluptuously defined, full-volume effect with an intense, jet-black finish that lasts all day. Style, set and lock in shade with full-sized Clear Brow Gel for that clean, polished hold without stiffness.',
+        stock: 10,
         reviews: [
           { name: 'Sneha K.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
           { name: 'Jyoti R.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
         ]
       },
       {
-        id: 26,
+        id: 30,
         category: 'Eye Makeup',
-        name: 'Waterproof Mascara',
-        price: '₹650.00',
-        image: 'https://cdn.fcglcdn.com/brainbees/images/products/583x720/18585713a.webp',
-        hoverImage: 'https://www.fashionlady.in/wp-content/uploads/2017/02/Best-waterproof-mascara-for-women.jpg',
-        description: 'This high-performance waterproof mascara stays put through swimming, workouts, and even the most emotional moments. The volumizing and lengthening formula creates dramatic lashes that won\'t smudge, flake, or run. The specially designed brush separates and coats each lash for clump-free volume that lasts all day and night.',
-        stock: 22,
+        name: 'Exagger-Eyes Volume Mascara',
+        price: '₹990.00',
+        image: 'https://is4.revolveassets.com/images/p4/n/uv/CTIL-WU499_V1.jpg',
+        hoverImage: 'https://is4.revolveassets.com/images/p4/n/z/CTIL-WU499_V4.jpg',
+        description: 'A volumizing, long-wear mascara for 28-hour volume + curl. The smudge-proof formula gives lashes 9x volume and a 2x curl effect from root-to-tip! The secret to bigger, brighter eyes! Exagger-eyes Volume Mascara is infused with lash-plumping polymers to amplify lashes for intense volume and curl.',
+        stock: 2,
         reviews: [
-          { name: 'Sneha K.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
-          { name: 'Jyoti R.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
+          { name: 'Ankita.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
+          { name: 'Sachin.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
         ]
       },
       {
-        id: 27,
+        id: 31,
         category: 'Lip Products',
         name: 'Lip Butter Balm',
         price: '₹1,200.00',
