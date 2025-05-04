@@ -66,7 +66,7 @@ TIVORA-/
 
 ## 🤝 Contributing
 
-Contributions are welcomes!  
+Contributions are welcomed and join us!  
 Please open an issue or submit a pull request with improvements or suggestions.
 
 ---
