@@ -1754,26 +1754,7 @@ const products = [
       color: ['Blue Dial/Steel Bracelet', 'Black Dial/Steel Bracelet', 'Black Dial/Leather Strap']
   }
 },
-{
-  id: 184,
-  name: 'Dive Watch',
-  brand: 'Omega',
-  price: '₹425,000.00',
-  image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/o/m/omega-seamaster-210-30-42-20-10-001-large.jpg',
-  category: 'watches',
-  inDemand: true,
-  stock: 15,
-  bestSeller: false,
-  description: 'Professional dive watch with legendary underwater heritage. This high-performance timepiece features a unidirectional rotating bezel, helium escape valve, highly luminous dial and hands, co-axial master chronometer movement, and water resistance to 300 meters.',
-  details: {
-      materials: 'Stainless steel case and bracelet, sapphire crystal, ceramic bezel',
-      fit: 'Case diameter: 42mm. Thickness: 13.5mm. Lug width: 20mm.',
-      care: 'Rinse with fresh water after exposure to saltwater. Service every 5-8 years.'
-  },
-  options: {
-      color: ['Blue Dial/Blue Bezel', 'Black Dial/Black Bezel', 'White Dial/Blue Bezel']
-  }
-},
+
 {
   id: 185,
   name: 'Minimalist Quartz Watch',
