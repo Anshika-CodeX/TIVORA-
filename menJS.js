@@ -2482,7 +2482,7 @@ const products = [
   name: 'Organic Cotton Relaxed Tank',
   brand: 'Everlane',
   price: '₹2,800.00',
-  image: 'https://sjc.microlink.io/9d2RQN7u_Amide6LBtEPCDQGo-i3RvCz3t_9g2ueRyh-sR_t2FN6o8aY-z3Z9v9VYW-PxbRUUu0Qhzggj3KibQ.jpeg',
+  image: 'https://herroom.scene7.com/is/image/Andraweb/c-in2-cin201-4226-gs?$z$',
   category: 'tanks',
   inDemand: false,
   stock: 42,
