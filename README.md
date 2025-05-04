@@ -1,6 +1,6 @@
 # TIVORA 🛍️
 
-**TIVORA-** is a fully responsive, front-end e-commerce website built using HTML, CSS, and JavaScript. It offers a modern shopping experience with multiple product categories including women's clothing, men's clothing, accessories, makeup, and perfumes.
+**TIVORA-** fully responsive, front-end e-commerce website built using HTML, CSS, and JavaScript. It offers a modern shopping experience with multiple product categories including women's clothing, men's clothing, accessories, makeup, and perfumes.
 
 ---
 
@@ -66,7 +66,7 @@ TIVORA-/
 
 ## 🤝 Contributing
 
-Contributions are welcome!  
+Contributions are welcomed and join us!  
 Please open an issue or submit a pull request with improvements or suggestions.
 
 ---
