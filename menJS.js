@@ -2713,7 +2713,7 @@ const products = [
   name: 'Relaxed Straight Jeans',
   brand: 'Levi\'s Vintage Clothing',
   price: '₹16,800.00',
-  image: 'https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1064514_lifestyle?$rl_4x5_pdp$',
+  image: 'https://i5.walmartimages.com/asr/47cc02e0-9e50-448f-9553-3ee06d4d264d_1.763955eccca5dca14fa3cbab50981ed3.jpeg',
   category: 'jeans',
   inDemand: true,
   stock: 68,
