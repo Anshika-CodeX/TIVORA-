@@ -2566,7 +2566,7 @@ const products = [
   name: 'Striped Nautical Tank',
   brand: 'Saint James',
   price: '₹8,900.00',
-  image: 'https://images.meesho.com/images/products/159657872/xy0fd_512.webp',
+  image: 'https://tse1.mm.bing.net/th?id=OIP.xcfzHufWyBUlJ3lO71av-gHaKB&pid=Api&P=0&h=180',
   category: 'tanks',
   inDemand: true,
   stock: 38,
