@@ -2350,7 +2350,1000 @@ const products = [
       size: ['85cm', '90cm', '95cm', '100cm', '105cm', '110cm'],
       color: ['Black', 'Brown', 'Red']
   }
-}
+},
+{
+  id: 213,
+  name: 'Organic Slim Fit Tee',
+  brand: 'Everlane',
+  price: '₹3,200.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPDHMYWQcbtWfdlbRc-st1kRrOQdlUspe2pQ&s',
+  category: 'tshirts',
+  inDemand: true,
+  stock: 85,
+  bestSeller: false,
+  description: 'Sustainably made slim-fit t-shirt crafted from organic cotton. Features a clean neckline, precise fit through the shoulders and chest, and slightly tapered waist for a modern silhouette.',
+  details: {
+      materials: '100% Organic Cotton',
+      fit: 'Slim fit. Model is 6\'0" and wears size M.',
+      care: 'Machine wash cold. Tumble dry low. Wash with similar colors.'
+  },
+  options: {
+      size: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+      color: ['White', 'Black', 'Heather Grey', 'Navy']
+  }
+},
+{
+  id: 214,
+  name: 'Vintage Wash Graphic Tee',
+  brand: 'AllSaints',
+  price: '₹6,800.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0lGvf8endVrpXd042O3SYJfXHbaSWDXuFAQ&s',
+  category: 'tshirts',
+  inDemand: true,
+  stock: 62,
+  bestSeller: true,
+  description: 'Distressed graphic t-shirt with vintage-inspired wash treatment. Features a worn-in look, subtle logo print, and raw-edge details for an effortlessly cool aesthetic with rock and roll attitude.',
+  details: {
+      materials: '100% Cotton with garment wash treatment',
+      fit: 'Regular fit with slight drape. Model is 6\'2" and wears size M.',
+      care: 'Machine wash cold inside out. Do not tumble dry. Do not iron directly on print.'
+  },
+  options: {
+      size: ['XS', 'S', 'M', 'L', 'XL'],
+      color: ['Vintage Black', 'Washed Grey', 'Faded Red']
+  }
+},
+{
+  id: 215,
+  name: 'Pima Cotton Pocket Tee',
+  brand: 'James Perse',
+  price: '₹7,500.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQttLkcZorGMkavz2HiaHCWypHcN2dBB3WAiw&s',
+  category: 'tshirts',
+  inDemand: false,
+  stock: 45,
+  bestSeller: false,
+  description: 'Luxury everyday t-shirt crafted from ultra-soft Pima cotton. Features a clean chest pocket, bound neckline, and a relaxed fit through the body for elevated casual style with exceptional comfort.',
+  details: {
+      materials: '100% Pima Cotton',
+      fit: 'Relaxed fit. Model is 5\'11" and wears size M.',
+      care: 'Hand wash cold or machine wash gentle cycle. Lay flat to dry.'
+  },
+  options: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['White', 'Black', 'Heather Grey', 'Olive']
+  }
+},
+{
+  id: 216,
+  name: 'Heavyweight Logo T-Shirt',
+  brand: 'Carhartt WIP',
+  price: '₹4,800.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5JQjROhKz5o5fvY_cNEVyja2ExUnFRGlgwQ&s',
+  category: 'tshirts',
+  inDemand: true,
+  stock: 98,
+  bestSeller: false,
+  description: 'Durable workwear-inspired t-shirt with signature logo patch. Features heavyweight cotton construction, reinforced seams, and a classic fit for authentic utilitarian style with urban appeal.',
+  details: {
+      materials: '100% Heavyweight Cotton',
+      fit: 'Regular fit. Model is 6\'1" and wears size L.',
+      care: 'Machine wash cold. Tumble dry medium.'
+  },
+  options: {
+      size: ['S', 'M', 'L', 'XL', 'XXL'],
+      color: ['Black', 'White', 'Hamilton Brown', 'Dark Navy']
+  }
+},
+{
+  id: 217,
+  name: 'Striped Breton T-Shirt',
+  brand: 'A.P.C.',
+  price: '₹8,900.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitZzxGtA6XxryC-NG2yjmZNkgLfYX08edkA&s',
+  category: 'tshirts',
+  inDemand: true,
+  stock: 72,
+  bestSeller: true,
+  description: 'Classic Breton-inspired striped t-shirt made from premium cotton jersey. Features traditional horizontal stripes, a clean crew neckline, and a slim fit for timeless French style with contemporary proportions.',
+  details: {
+      materials: '100% Cotton',
+      fit: 'Slim fit. Model is 6\'0" and wears size M.',
+      care: 'Machine wash cold. Reshape and lay flat to dry.'
+  },
+  options: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['Navy/White', 'Black/White', 'Red/White']
+  }
+},
+{
+  id: 218,
+  name: 'Ribbed Athletic Tank',
+  brand: 'Under Armour',
+  price: '₹3,900.00',
+  image: 'https://m.media-amazon.com/images/I/71us8G-JzHS._AC_UY1100_.jpg',
+  category: 'tanks',
+  inDemand: true,
+  stock: 65,
+  bestSeller: true,
+  description: 'Performance-oriented ribbed tank designed for intense workouts. Features moisture-wicking fabric, four-way stretch construction, anti-odor technology, and a compression fit that supports muscles while allowing full range of motion.',
+  details: {
+      materials: '88% Polyester, 12% Elastane',
+      fit: 'Compression fit. Model is 6\'2" and wears size L.',
+      care: 'Machine wash cold with like colors. Tumble dry low.'
+  },
+  options: {
+      size: ['S', 'M', 'L', 'XL', 'XXL'],
+      color: ['Black', 'White', 'Red', 'Blue']
+  }
+},
+{
+  id: 219,
+  name: 'Organic Cotton Relaxed Tank',
+  brand: 'Everlane',
+  price: '₹2,800.00',
+  image: 'https://sjc.microlink.io/9d2RQN7u_Amide6LBtEPCDQGo-i3RvCz3t_9g2ueRyh-sR_t2FN6o8aY-z3Z9v9VYW-PxbRUUu0Qhzggj3KibQ.jpeg',
+  category: 'tanks',
+  inDemand: false,
+  stock: 42,
+  bestSeller: false,
+  description: 'Sustainably made relaxed tank crafted from organic cotton. Features a slightly oversized fit, raw edge details, and a scoop neckline for an effortless everyday look with eco-conscious credentials.',
+  details: {
+      materials: '100% Organic Cotton',
+      fit: 'Relaxed fit. Model is 5\'10" and wears size S.',
+      care: 'Machine wash cold. Tumble dry low.'
+  },
+  options: {
+      size: ['XS', 'S', 'M', 'L', 'XL'],
+      color: ['White', 'Black', 'Sage', 'Sand']
+  }
+},
+{
+  id: 220,
+  name: 'Mesh Performance Tank',
+  brand: 'Nike',
+  price: '₹4,200.00',
+  image: 'https://m.media-amazon.com/images/I/71BBA7rfsyL._AC_UY1100_.jpg',
+  category: 'tanks',
+  inDemand: true,
+  stock: 58,
+  bestSeller: false,
+  description: 'Technical training tank with strategic ventilation. Features Dri-FIT technology to wick away sweat, mesh panels for enhanced airflow, racerback design for unrestricted movement, and reflective details for low-light visibility.',
+  details: {
+      materials: '100% Recycled Polyester',
+      fit: 'Athletic fit. Model is 5\'9" and wears size M.',
+      care: 'Machine wash cold. Line dry.'
+  },
+  options: {
+      size: ['XS', 'S', 'M', 'L', 'XL'],
+      color: ['Black', 'Grey', 'Neon Yellow', 'Blue']
+  }
+},
+{
+  id: 221,
+  name: 'Luxury Silk Blend Tank',
+  brand: 'Vince',
+  price: '₹12,500.00',
+  image: 'https://cdn12.nnnow.com/web-images/large/styles/LYD4IEWHFY1/1708325953807/1.jpg',
+  category: 'tanks',
+  inDemand: false,
+  stock: 32,
+  bestSeller: false,
+  description: 'Elevated tank top crafted from silk and modal blend. Features a luxurious drape, satin-trimmed neckline and armholes, and a slightly longer length for sophisticated layering or standalone wear.',
+  details: {
+      materials: '70% Modal, 30% Silk',
+      fit: 'Relaxed fit. Model is 5\'11" and wears size S.',
+      care: 'Dry clean only or hand wash cold with mild detergent.'
+  },
+  options: {
+      size: ['XS', 'S', 'M', 'L'],
+      color: ['Ivory', 'Black', 'Navy', 'Blush']
+  }
+},
+{
+  id: 222,
+  name: 'Graphic Print Muscle Tank',
+  brand: 'Diesel',
+  price: '₹7,800.00',
+  image: 'https://m.media-amazon.com/images/I/71C8VMJHgkL._AC_UY1100_.jpg',
+  category: 'tanks',
+  inDemand: true,
+  stock: 45,
+  bestSeller: true,
+  description: 'Bold statement tank with edgy graphic print. Features distressed logo design, raw-edge armholes, dropped armholes, and a relaxed fit for authentic streetwear style with attitude.',
+  details: {
+      materials: '100% Cotton',
+      fit: 'Relaxed fit. Model is 6\'1" and wears size M.',
+      care: 'Machine wash cold inside out. Do not tumble dry.'
+  },
+  options: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['Black', 'White', 'Grey']
+  }
+},
+{
+  id: 223,
+  name: 'Striped Nautical Tank',
+  brand: 'Saint James',
+  price: '₹8,900.00',
+  image: 'https://images.meesho.com/images/products/159657872/xy0fd_512.webp',
+  category: 'tanks',
+  inDemand: true,
+  stock: 38,
+  bestSeller: false,
+  description: 'Classic Breton-inspired striped tank made in France. Features traditional horizontal navy and white stripes, heavyweight cotton construction, and a clean boat neckline for authentic maritime style with timeless appeal.',
+  details: {
+      materials: '100% Combed Cotton',
+      fit: 'Regular fit. Model is 5\'10" and wears size M.',
+      care: 'Machine wash cold. Reshape while damp and dry flat.'
+  },
+  options: {
+      size: ['XS', 'S', 'M', 'L', 'XL'],
+      color: ['Navy/White', 'White/Navy', 'Red/White']
+  }
+},
+{
+  id: 224,
+  name: 'Oxford Button-Down Shirt',
+  brand: 'Brooks Brothers',
+  price: '₹11,500.00',
+  image: 'https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-214692_alternate10?$rl_4x5_pdp$',
+  category: 'shirts',
+  inDemand: true,
+  stock: 62,
+  bestSeller: true,
+  description: 'Iconic American-made oxford cloth button-down shirt. Features a soft roll collar, box pleat, locker loop, and traditional fit for a timeless preppy aesthetic that works for both business and casual occasions.',
+  details: {
+      materials: '100% Supima Cotton Oxford',
+      fit: 'Traditional fit. Model is 6\'0" and wears size M.',
+      care: 'Machine wash cold. Tumble dry low. Iron if needed.'
+  },
+  options: {
+      size: ['S', 'M', 'L', 'XL', 'XXL'],
+      color: ['White', 'Blue', 'Pink', 'Yellow']
+  }
+},
+{
+  id: 225,
+  name: 'Linen Resort Shirt',
+  brand: 'Orlebar Brown',
+  price: '₹15,800.00',
+  image: 'https://ramrajcotton.in/cdn/shop/files/240524_ramraj0376.jpg?v=1743659622',
+  category: 'shirts',
+  inDemand: true,
+  stock: 45,
+  bestSeller: false,
+  description: 'Premium linen shirt designed for warm-weather occasions. Features a camp collar, straight hem, mother-of-pearl buttons, and lightweight breathable fabric for sophisticated resort style.',
+  details: {
+      materials: '100% Italian Linen',
+      fit: 'Regular fit. Model is 6\'1" and wears size M.',
+      care: 'Machine wash cold or dry clean. Iron on medium heat while slightly damp.'
+  },
+  options: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['White', 'Navy', 'Sage Green', 'Sand']
+  }
+},
+{
+  id: 226,
+  name: 'Japanese Denim Shirt',
+  brand: 'Visvim',
+  price: '₹32,000.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqs0WAs9RDStysZS_j4bL5lP2fSornoj53VA&s',
+  category: 'shirts',
+  inDemand: false,
+  stock: 28,
+  bestSeller: false,
+  description: 'Artisanal denim shirt crafted from Japanese selvedge fabric. Features hand-finished details, natural indigo dye, horn buttons, reinforced elbow patches, and a perfectly worn-in wash for premium workwear-inspired style.',
+  details: {
+      materials: '100% Japanese Selvedge Cotton',
+      fit: 'Relaxed fit. Model is 6\'0" and wears size 3.',
+      care: 'Hand wash cold or dry clean. Hang dry.'
+  },
+  options: {
+      size: ['2', '3', '4', '5'],
+      color: ['Indigo', 'Light Wash']
+  }
+},
+{
+  id: 227,
+  name: 'Flannel Check Shirt',
+  brand: 'Filson',
+  price: '₹14,200.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9s0i_aWO99rCEWprWrCpi6sk6qfxLhbSl_Q&s',
+  category: 'shirts',
+  inDemand: true,
+  stock: 72,
+  bestSeller: true,
+  description: 'Rugged brushed cotton flannel shirt with heritage design. Features a button-down collar, chest pockets with button flaps, adjustable cuffs, and a relaxed fit for comfort during outdoor activities.',
+  details: {
+      materials: '100% Cotton Flannel',
+      fit: 'Regular fit. Model is 6\'2" and wears size L.',
+      care: 'Machine wash warm. Tumble dry medium.'
+  },
+  options: {
+      size: ['S', 'M', 'L', 'XL', 'XXL'],
+      color: ['Red/Black Check', 'Green/Black Check', 'Blue/Black Check']
+  }
+},
+{
+  id: 228,
+  name: 'Silk Evening Shirt',
+  brand: 'Tom Ford',
+  price: '₹58,000.00',
+  image: 'https://thehouseofrare.com/cdn/shop/files/SALFORDOFFWHITE00390HERO_9b24b352-2b3c-4d89-9fc1-5f3870d11148.jpg?v=1743585235',
+  category: 'shirts',
+  inDemand: false,
+  stock: 18,
+  bestSeller: false,
+  description: 'Luxurious formal shirt crafted from Italian silk. Features a spread collar, French cuffs, mother-of-pearl buttons, and impeccable tailoring for sophisticated evening wear with unparalleled elegance.',
+  details: {
+      materials: '100% Italian Silk',
+      fit: 'Slim fit. Model is 6\'1" and wears size 40.',
+      care: 'Dry clean only.'
+  },
+  options: {
+      size: ['38', '39', '40', '41', '42', '43'],
+      color: ['White', 'Black', 'Ivory']
+  }
+},
+{
+  id: 229,
+  name: 'Slim Tapered Selvedge Jeans',
+  brand: 'A.P.C.',
+  price: '₹18,500.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWUr6rf0IfEFrNZpwU-spfCbMtSa4qnww9QA&s',
+  category: 'jeans',
+  inDemand: true,
+  stock: 55,
+  bestSeller: true,
+  description: 'Iconic raw selvedge denim jeans with minimalist design. Features Japanese denim construction, clean silhouette with no external branding, five-pocket styling, and signature selvedge outseam that develops unique patina with wear.',
+  details: {
+      materials: '100% Cotton Japanese selvedge denim',
+      fit: 'Slim tapered fit. Model is 6\'1" and wears size 32.',
+      care: 'Wash as infrequently as possible. When necessary, wash inside out in cold water and hang dry.'
+  },
+  options: {
+      size: ['28', '29', '30', '31', '32', '33', '34', '36'],
+      color: ['Indigo', 'Black']
+  }
+},
+{
+  id: 230,
+  name: 'Relaxed Straight Jeans',
+  brand: 'Levi\'s Vintage Clothing',
+  price: '₹16,800.00',
+  image: 'https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1064514_lifestyle?$rl_4x5_pdp$',
+  category: 'jeans',
+  inDemand: true,
+  stock: 68,
+  bestSeller: false,
+  description: 'Authentic reproduction of classic 1950s jeans. Features period-correct details like a higher rise, wider leg, selvedge denim from Cone Mills, two-horse leather patch, and vintage-inspired wash for timeless Americana style.',
+  details: {
+      materials: '100% Cotton Cone Mills Selvedge Denim',
+      fit: 'Relaxed straight fit. Model is 6\'0" and wears size 32.',
+      care: 'Machine wash cold inside out. Hang dry.'
+  },
+  options: {
+      size: ['28', '29', '30', '31', '32', '33', '34', '36', '38'],
+      color: ['Rigid', '1955 Wash']
+  }
+},
+{
+  id: 231,
+  name: 'Skinny Stretch Jeans',
+  brand: 'Saint Laurent',
+  price: '₹42,000.00',
+  image: 'https://pantproject.com/cdn/shop/files/DSC6905.jpg?v=1744900836',
+  category: 'jeans',
+  inDemand: true,
+  stock: 42,
+  bestSeller: true,
+  description: 'Luxurious skinny jeans with rock and roll aesthetic. Features premium stretch denim, a low rise waist, ultra-slim fit throughout the leg, and minimal branding for a sleek, edgy look that embodies the brand\'s rebellious spirit.',
+  details: {
+      materials: '98% Cotton, 2% Elastane',
+      fit: 'Skinny fit. Model is 6\'1" and wears size 32.',
+      care: 'Machine wash cold inside out. Hang dry.'
+  },
+  options: {
+      size: ['28', '29', '30', '31', '32', '33', '34'],
+      color: ['Used Black', 'Raw Black', 'Indigo']
+  }
+},
+{
+  id: 232,
+  name: 'Wide Leg Carpenter Jeans',
+  brand: 'Carhartt WIP',
+  price: '₹12,500.00',
+  image: 'https://assets.ajio.com/medias/sys_master/root/20230613/98CW/64889a6a42f9e729d73f8247/-473Wx593H-466268646-navy-MODEL.jpg',
+  category: 'jeans',
+  inDemand: false,
+  stock: 38,
+  bestSeller: false,
+  description: 'Workwear-inspired wide leg jeans with utility details. Features heavyweight denim, hammer loop, tool pockets, reinforced stitching, and a relaxed fit through the leg for authentic workwear style with urban appeal.',
+  details: {
+      materials: '100% Cotton',
+      fit: 'Wide leg fit. Model is 6\'1" and wears size 32.',
+      care: 'Machine wash cold. Tumble dry medium.'
+  },
+  options: {
+      size: ['28', '30', '32', '34', '36', '38'],
+      color: ['Blue', 'Black', 'Stone Wash']
+  }
+},
+{
+  id: 233,
+  name: 'Vintage Wash Dad Jeans',
+  brand: 'Acne Studios',
+  price: '₹22,500.00',
+  image: 'https://pictures.kartmax.in/live/sites/aPfvUDpPwMn1ZadNKhP7/product-images/8907787958062/660/HLJN000878_1.jpg',
+  category: 'jeans',
+  inDemand: true,
+  stock: 52,
+  bestSeller: false,
+  description: 'Contemporary interpretation of classic dad jeans. Features a comfortable mid-rise waist, relaxed fit through the thigh with a slight taper, premium denim with vintage wash treatment, and minimal detailing for Scandinavian-inspired style.',
+  details: {
+      materials: '100% Cotton',
+      fit: 'Relaxed tapered fit. Model is 6\'1" and wears size 32.',
+      care: 'Machine wash cold inside out. Tumble dry low.'
+  },
+  options: {
+      size: ['28', '29', '30', '31', '32', '33', '34', '36'],
+      color: ['Light Vintage Wash', 'Mid Blue', 'Stonewashed Black']
+  }
+},
+{
+  id: 234,
+  name: 'Retro Basketball Sneakers',
+  brand: 'Nike',
+  price: '₹12,500.00',
+  image: 'https://i.shgcdn.com/8866d26e-214d-4c69-9d43-0ffdd14c597f/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
+  category: 'sneakers',
+  inDemand: true,
+  stock: 85,
+  bestSeller: true,
+  description: 'Iconic basketball-inspired sneakers with vintage appeal. Features premium leather upper, air cushioning technology, padded collar and tongue, and the brand\'s signature swoosh logo for authentic retro athletic style.',
+  details: {
+      materials: 'Leather upper, rubber outsole',
+      fit: 'True to size. Order your regular shoe size.',
+      care: 'Wipe clean with a soft cloth. Use leather cleaner for stains.'
+  },
+  options: {
+      size: ['7', '8', '9', '10', '11', '12', '13'],
+      color: ['White/Red', 'White/Blue', 'Black/White']
+  }
+},
+{
+  id: 235,
+  name: 'Minimalist Leather Trainers',
+  brand: 'Common Projects',
+  price: '₹38,500.00',
+  image: 'https://costosoitaliano.com/cdn/shop/files/sceinteis_SUEDE_COLOUR_SNEAKER_e088a8fc-482e-4520-9a8e-60c64dfa4f5d_580x.png?v=1736591111',
+  category: 'sneakers',
+  inDemand: true,
+  stock: 42,
+  bestSeller: false,
+  description: 'Luxury minimalist sneakers handcrafted in Italy. Features premium Nappa leather, clean silhouette with no visible branding, signature gold serial numbers at the heel, and durable Margom soles for understated elegance.',
+  details: {
+      materials: 'Italian Nappa leather upper, leather lining, rubber sole',
+      fit: 'True to size. Order your regular shoe size.',
+      care: 'Wipe clean with a soft cloth. Use leather conditioner occasionally.'
+  },
+  options: {
+      size: ['40', '41', '42', '43', '44', '45'],
+      color: ['White', 'Black', 'Blush', 'Navy']
+  }
+},
+{
+  id: 236,
+  name: 'Sustainable Canvas Sneakers',
+  brand: 'Veja',
+  price: '₹11,200.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEUxOuJP5FbOE8boWaxaHgLKKMowB1NqEsWw&s',
+  category: 'sneakers',
+  inDemand: true,
+  stock: 68,
+  bestSeller: true,
+  description: 'Eco-conscious sneakers made with sustainable materials. Features organic cotton canvas, wild rubber from the Amazon, recycled polyester lining, and the brand\'s distinctive V logo for responsible style with French minimalist design.',
+  details: {
+      materials: 'Organic cotton canvas upper, wild rubber sole, recycled polyester lining',
+      fit: 'Runs narrow. Consider ordering half size up if you have wide feet.',
+      care: 'Spot clean with mild soap and water. Air dry away from direct heat.'
+  },
+  options: {
+      size: ['40', '41', '42', '43', '44', '45', '46'],
+      color: ['White/Natural', 'Black/White', 'White/Cobalt']
+  }
+},
+{
+  id: 237,
+  name: 'Chunky Sole Designer Sneakers',
+  brand: 'Balenciaga',
+  price: '₹75,000.00',
+  image: 'https://hips.hearstapps.com/hmg-prod/images/designer-sneakera-1471965974-658338c090aa0.jpg?crop=0.668xw:1.00xh;0.138xw,0&resize=1200:*',
+  category: 'sneakers',
+  inDemand: true,
+  stock: 32,
+  bestSeller: false,
+  description: 'Statement designer sneakers with bold, exaggerated proportions. Features a complex paneled construction, oversized silhouette, chunky sole unit, and subtle logo details for a contemporary luxury aesthetic that makes a strong style statement.',
+  details: {
+      materials: 'Mesh, nylon and leather upper, rubber sole',
+      fit: 'Runs large. Consider ordering one size down.',
+      care: 'Wipe clean with a soft damp cloth. Store with shoe trees.'
+  },
+  options: {
+      size: ['39', '40', '41', '42', '43', '44', '45'],
+      color: ['Triple Black', 'Triple White', 'Grey/Blue/Red']
+  }
+},
+{
+  id: 238,
+  name: 'Knit Performance Runners',
+  brand: 'Adidas',
+  price: '₹14,500.00',
+  image: 'https://static.nike.com/a/images/f_auto,cs_srgb/w_960,c_limit/23e95755-136e-4b97-b0d0-86123a665f1a/nike-flyknit.jpg',
+  category: 'sneakers',
+  inDemand: false,
+  stock: 48,
+  bestSeller: false,
+  description: 'Innovative performance running shoes with seamless knit construction. Features breathable Primeknit upper, responsive Boost foam cushioning, Continental rubber outsole, and a lightweight design for superior comfort and athletic performance.',
+  details: {
+      materials: 'Primeknit upper, Boost foam midsole, Continental rubber outsole',
+      fit: 'True to size. Order your regular shoe size.',
+      care: 'Remove dirt with a soft brush. Machine washable on gentle cycle in cold water. Air dry.'
+  },
+  options: {
+      size: ['7', '8', '9', '10', '11', '12', '13'],
+      color: ['Core Black', 'Cloud White', 'Signal Green', 'Solar Red']
+  }
+},
+{
+  id: 239,
+  name: 'Acetate Frame Wayfarers',
+  brand: 'Persol',
+  price: '₹18,900.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5107gU9yZlDA0ridBTNUwPZYmskkCiwWjCg&s',
+  category: 'sunglasses',
+  inDemand: true,
+  stock: 42,
+  bestSeller: false,
+  description: 'Italian-crafted acetate sunglasses with wayfarer-inspired shape. Features hand-finished acetate frames, crystal lenses, the brand\'s signature arrow hinges, and Supreme Arrow metal accents for timeless Mediterranean style.',
+  details: {
+      materials: 'Acetate frame, crystal glass lenses with 100% UV protection',
+      fit: 'Lens width: 54mm, Bridge: 18mm, Temple length: 145mm',
+      care: 'Clean with lens cloth and mild soap. Avoid high temperatures that could warp acetate.'
+  },
+  options: {
+      size: ['52mm', '54mm', '56mm'],
+      color: ['Havana/Brown', 'Black/Green', 'Honey/Blue']
+  }
+},
+{
+  id: 240,
+  name: 'Round Metal Sunglasses',
+  brand: 'Oliver Peoples',
+  price: '₹28,500.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI1Xu3CWIXWIGnB6J2q6mGV_3E7FZdKxdfhQ&s',
+  category: 'sunglasses',
+  inDemand: false,
+  stock: 28,
+  bestSeller: false,
+  description: 'Refined round sunglasses with vintage-inspired design. Features a lightweight titanium frame, mineral glass lenses, filigree detailing, adjustable nose pads, and subtle branding for sophisticated retro style with modern craftsmanship.',
+  details: {
+      materials: 'Titanium frame, mineral glass lenses with anti-reflective coating and 100% UV protection',
+      fit: 'Lens width: 47mm, Bridge: 22mm, Temple length: 145mm',
+      care: 'Clean with lens cloth and lens cleaner. Store in protective case when not in use.'
+  },
+  options: {
+      color: ['Gold/Green', 'Antique Gold/Blue', 'Silver/Grey']
+  }
+},
+{
+  id: 241,
+  name: 'Oversized Square Sunglasses',
+  brand: 'Gucci',
+  price: '₹32,000.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYtEUmrE-Ff7jnWGJ5RPJLZ0vN8D0IV-TR3w&s',
+  category: 'sunglasses',
+  inDemand: true,
+  stock: 35,
+  bestSeller: true,
+  description: 'Statement oversized sunglasses with bold designer aesthetic. Features an acetate frame with exaggerated proportions, gradient lenses, signature web stripe detail on temples, and interlocking G logo for unmistakable brand identity.',
+  details: {
+      materials: 'Acetate frame, gradient lenses with 100% UV protection',
+      fit: 'Lens width: 56mm, Bridge: 18mm, Temple length: 145mm',
+      care: 'Clean with lens cloth and mild soap. Store in protective case when not in use.'
+  },
+  options: {
+      color: ['Black/Grey Gradient', 'Havana/Brown Gradient', 'Transparent/Green Gradient']
+  }
+},
+{
+  id: 242,
+  name: 'Sport Wrap Polarized Sunglasses',
+  brand: 'Oakley',
+  price: '₹14,200.00',
+  image: 'https://d3995ea24pmi7m.cloudfront.net/media/catalog/product/o/k/ok9343934308_3_lar.jpg',
+  category: 'sunglasses',
+  inDemand: true,
+  stock: 72,
+  bestSeller: false,
+  description: 'High-performance wrap sunglasses designed for athletic activities. Features the brand\'s proprietary O Matter® frame material, Prizm™ lens technology for enhanced contrast, no-slip Unobtainium® nose pads and temple tips, and a semi-rimless design for unobstructed vision.',
+  details: {
+      materials: 'O Matter® frame, Prizm™ polarized lenses with 100% UV protection and impact resistance',
+      fit: 'Lens width: 59mm, Bridge: 12mm, Temple length: 130mm',
+      care: 'Rinse with fresh water after use. Clean with lens cloth and mild soap.'
+  },
+  options: {
+      color: ['Matte Black/Prizm Road', 'Polished White/Prizm Trail', 'Matte Navy/Prizm Deep Water']
+  }
+},
+{
+  id: 243,
+  name: 'Foldable Pocket Sunglasses',
+  brand: 'Persol',
+  price: '₹22,500.00',
+  image: 'https://assets2.persol.com/cdn-record-files-pi/4cd79376-6f4b-4754-95f8-a35e0060d1b5/dbe9dc93-b001-4cc4-ae86-aed800a8c3e9/0PO0714__24_S3__P21__shad__fldg.png?impolicy=HB_parameters&wid=400&cropnorth=-7&cropsouth=-8',
+  category: 'sunglasses',
+  inDemand: true,
+  stock: 28,
+  bestSeller: true,
+  description: 'Premium foldable sunglasses with innovative design. Features a patented folding mechanism at bridge and temples, hand-crafted acetate frame, crystal lenses, signature arrow hinges, and compact folded size for convenient portability without sacrificing style.',
+  details: {
+      materials: 'Acetate frame, crystal lenses with 100% UV protection',
+      fit: 'Lens width: 54mm, Bridge: 18mm, Temple length: 140mm',
+      care: 'Clean with lens cloth and mild soap. Handle folding mechanism with care.'
+  },
+  options: {
+      color: ['Havana/Brown', 'Black/Green', 'Honey/Light Blue']
+  }
+},
+{
+  id: 244,
+  name: 'Automatic Chronograph Watch',
+  brand: 'TAG Heuer',
+  price: '₹185,000.00',
+  image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/t/a/tag-heuer-carrera-cbn2a1aa-ba0643-multiple-2.jpg',
+  category: 'watches',
+  inDemand: true,
+  stock: 28,
+  bestSeller: true,
+  description: 'Precision Swiss-made automatic chronograph watch with racing heritage. Features a stainless steel case, sapphire crystal with anti-reflective coating, in-house movement with 80-hour power reserve, and water resistance to 100 meters.',
+  details: {
+      materials: 'Stainless steel case and bracelet, sapphire crystal, ceramic bezel',
+      fit: 'Case diameter: 44mm. Thickness: 14.5mm. Lug width: 22mm.',
+      care: 'Regular service every 5-7 years recommended. Avoid magnetic fields and extreme temperatures.'
+  },
+  options: {
+      color: ['Blue Dial/Steel Bracelet', 'Black Dial/Steel Bracelet', 'Black Dial/Leather Strap']
+  }
+},
+{
+  id: 245,
+  name: 'Dive Watch',
+  brand: 'Omega',
+  price: '₹425,000.00',
+  image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/o/m/omega-seamaster-210-30-42-20-10-001-large.jpg',
+  category: 'watches',
+  inDemand: true,
+  stock: 15,
+  bestSeller: false,
+  description: 'Professional dive watch with legendary underwater heritage. Features a unidirectional rotating bezel, helium escape valve, highly luminous dial and hands, co-axial master chronometer movement, and water resistance to 300 meters.',
+  details: {
+      materials: 'Stainless steel case and bracelet, sapphire crystal, ceramic bezel',
+      fit: 'Case diameter: 42mm. Thickness: 13.5mm. Lug width: 20mm.',
+      care: 'Rinse with fresh water after exposure to saltwater. Service every 5-8 years.'
+  },
+  options: {
+      color: ['Blue Dial/Blue Bezel', 'Black Dial/Black Bezel', 'White Dial/Blue Bezel']
+  }
+},
+{
+  id: 246,
+  name: 'Dress Watch with Leather Strap',
+  brand: 'Jaeger-LeCoultre',
+  price: '₹750,000.00',
+  image: 'https://img.jaeger-lecoultre.com/mega-menu-list-3/0a652a122ea0365fd7a0e11c5d4097c676a251ea.jpg',
+  category: 'watches',
+  inDemand: true,
+  stock: 12,
+  bestSeller: true,
+  description: 'Ultra-thin dress watch with sophisticated elegance. Features a hand-finished in-house movement, guilloché dial with applied hour markers, dauphine hands, sapphire crystal case back, and alligator leather strap for refined formal style.',
+  details: {
+      materials: 'Rose gold case, sapphire crystal, alligator leather strap',
+      fit: 'Case diameter: 40mm. Thickness: 7.5mm. Lug width: 20mm.',
+      care: 'Service every 5 years. Store in watch winder when not in use. Avoid water exposure.'
+  },
+  options: {
+      color: ['Silver Dial/Black Leather', 'Champagne Dial/Brown Leather']
+  }
+},
+{
+  id: 247,
+  name: 'Pilot\'s Chronograph',
+  brand: 'IWC',
+  price: '₹650,000.00',
+  image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/i/w/iwc-pilots-iw389101-large.jpg',
+  category: 'watches',
+  inDemand: true,
+  stock: 8,
+  bestSeller: false,
+  description: 'Classic aviation-inspired pilot\'s chronograph with heritage design. Features a highly legible dial with luminous numerals and hands, in-house automatic movement with 7-day power reserve, soft-iron inner case for magnetic field protection, and vintage-inspired aesthetics.',
+  details: {
+      materials: 'Stainless steel case, sapphire crystal, calfskin leather strap',
+      fit: 'Case diameter: 46mm. Thickness: 15.5mm. Lug width: 22mm.',
+      care: 'Regular service every 5 years recommended. Keep away from strong magnetic fields.'
+  },
+  options: {
+      color: ['Black Dial/Brown Leather', 'Blue Dial/Black Leather']
+  }
+},
+{
+  id: 248,
+  name: 'GMT Travel Watch',
+  brand: 'Rolex',
+  price: '₹950,000.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4OnP0wem69jvj0iI7l9y920z1BUdP4wzimw&s',
+  category: 'watches',
+  inDemand: true,
+  stock: 10,
+  bestSeller: true,
+  description: 'Iconic dual time zone watch designed for global travelers. Features a bidirectional rotatable 24-hour bezel, additional GMT hand, superlative chronometer certified movement, and the brand\'s signature Oyster case with water resistance to 100 meters.',
+  details: {
+      materials: 'Oystersteel case and bracelet, Cerachrom ceramic bezel, sapphire crystal',
+      fit: 'Case diameter: 40mm. Thickness: 12mm. Oyster bracelet with Easylink extension.',
+      care: 'Service every 10 years. Rinse with fresh water after exposure to saltwater.'
+  },
+  options: {
+      color: ['Black/Blue Bezel', 'Black/Red Bezel', 'Blue Dial']
+  }
+},
+{
+  id: 249,
+  name: 'Minimalist Quartz Watch',
+  brand: 'Junghans',
+  price: '₹85,000.00',
+  image: 'https://cdn4.ethoswatches.com/the-watch-guide/wp-content/uploads/2018/12/1200x900-2.jpg',
+  category: 'watches',
+  inDemand: false,
+  stock: 22,
+  bestSeller: false,
+  description: 'Bauhaus-inspired minimalist watch with German design heritage. Features a clean dial with slim markers, domed sapphire crystal, precision quartz movement, and a slim case profile for timeless sophistication with modernist principles.',
+  details: {
+      materials: 'Stainless steel case, sapphire crystal, leather strap',
+      fit: 'Case diameter: 38mm. Thickness: 7.5mm. Lug width: 20mm.',
+      care: 'Wipe clean with a soft cloth. Avoid water exposure with leather strap.'
+  },
+  options: {
+      color: ['White Dial/Black Leather', 'Black Dial/Brown Leather', 'White Dial/Mesh Bracelet']
+  }
+},
+{
+  id: 250,
+  name: 'Automatic Chronograph Watch',
+  brand: 'TAG Heuer',
+  price: '₹185,000.00',
+  image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/t/a/tag-heuer-carrera-cbn2a1aa-ba0643-multiple-2.jpg',
+  category: 'watches',
+  inDemand: true,
+  stock: 28,
+  bestSeller: true,
+  description: 'Precision Swiss-made automatic chronograph watch with racing heritage. Features a stainless steel case, sapphire crystal with anti-reflective coating, in-house movement with 80-hour power reserve, and water resistance to 100 meters.',
+  details: {
+      materials: 'Stainless steel case and bracelet, sapphire crystal, ceramic bezel',
+      fit: 'Case diameter: 44mm. Thickness: 14.5mm. Lug width: 22mm.',
+      care: 'Regular service every 5-7 years recommended. Avoid magnetic fields and extreme temperatures.'
+  },
+  options: {
+      color: ['Blue Dial/Steel Bracelet', 'Black Dial/Steel Bracelet', 'Black Dial/Leather Strap']
+  }
+},
+{
+  id: 251,
+  name: 'Dive Watch',
+  brand: 'Omega',
+  price: '₹425,000.00',
+  image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/o/m/omega-seamaster-210-30-42-20-10-001-large.jpg',
+  category: 'watches',
+  inDemand: true,
+  stock: 15,
+  bestSeller: false,
+  description: 'Professional dive watch with legendary underwater heritage. Features a unidirectional rotating bezel, helium escape valve, highly luminous dial and hands, co-axial master chronometer movement, and water resistance to 300 meters.',
+  details: {
+      materials: 'Stainless steel case and bracelet, sapphire crystal, ceramic bezel',
+      fit: 'Case diameter: 42mm. Thickness: 13.5mm. Lug width: 20mm.',
+      care: 'Rinse with fresh water after exposure to saltwater. Service every 5-8 years.'
+  },
+  options: {
+      color: ['Blue Dial/Blue Bezel', 'Black Dial/Black Bezel', 'White Dial/Blue Bezel']
+  }
+},
+{
+  id: 252,
+  name: 'Dress Watch with Leather Strap',
+  brand: 'Jaeger-LeCoultre',
+  price: '₹750,000.00',
+  image: 'https://img.jaeger-lecoultre.com/mega-menu-list-3/0a652a122ea0365fd7a0e11c5d4097c676a251ea.jpg',
+  category: 'watches',
+  inDemand: true,
+  stock: 12,
+  bestSeller: true,
+  description: 'Ultra-thin dress watch with sophisticated elegance. Features a hand-finished in-house movement, guilloché dial with applied hour markers, dauphine hands, sapphire crystal case back, and alligator leather strap for refined formal style.',
+  details: {
+      materials: 'Rose gold case, sapphire crystal, alligator leather strap',
+      fit: 'Case diameter: 40mm. Thickness: 7.5mm. Lug width: 20mm.',
+      care: 'Service every 5 years. Store in watch winder when not in use. Avoid water exposure.'
+  },
+  options: {
+      color: ['Silver Dial/Black Leather', 'Champagne Dial/Brown Leather']
+  }
+},
+{
+  id: 253,
+  name: 'Pilot\'s Chronograph',
+  brand: 'IWC',
+  price: '₹650,000.00',
+  image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/i/w/iwc-pilots-iw389101-large.jpg',
+  category: 'watches',
+  inDemand: true,
+  stock: 8,
+  bestSeller: false,
+  description: 'Classic aviation-inspired pilot\'s chronograph with heritage design. Features a highly legible dial with luminous numerals and hands, in-house automatic movement with 7-day power reserve, soft-iron inner case for magnetic field protection, and vintage-inspired aesthetics.',
+  details: {
+      materials: 'Stainless steel case, sapphire crystal, calfskin leather strap',
+      fit: 'Case diameter: 46mm. Thickness: 15.5mm. Lug width: 22mm.',
+      care: 'Regular service every 5 years recommended. Keep away from strong magnetic fields.'
+  },
+  options: {
+      color: ['Black Dial/Brown Leather', 'Blue Dial/Black Leather']
+  }
+},
+{
+  id: 254,
+  name: 'GMT Travel Watch',
+  brand: 'Rolex',
+  price: '₹950,000.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4OnP0wem69jvj0iI7l9y920z1BUdP4wzimw&s',
+  category: 'watches',
+  inDemand: true,
+  stock: 10,
+  bestSeller: true,
+  description: 'Iconic dual time zone watch designed for global travelers. Features a bidirectional rotatable 24-hour bezel, additional GMT hand, superlative chronometer certified movement, and the brand\'s signature Oyster case with water resistance to 100 meters.',
+  details: {
+      materials: 'Oystersteel case and bracelet, Cerachrom ceramic bezel, sapphire crystal',
+      fit: 'Case diameter: 40mm. Thickness: 12mm. Oyster bracelet with Easylink extension.',
+      care: 'Service every 10 years. Rinse with fresh water after exposure to saltwater.'
+  },
+  options: {
+      color: ['Black/Blue Bezel', 'Black/Red Bezel', 'Blue Dial']
+  }
+},
+{
+  id: 255,
+  name: 'Minimalist Quartz Watch',
+  brand: 'Junghans',
+  price: '₹85,000.00',
+  image: 'https://cdn4.ethoswatches.com/the-watch-guide/wp-content/uploads/2018/12/1200x900-2.jpg',
+  category: 'watches',
+  inDemand: false,
+  stock: 22,
+  bestSeller: false,
+  description: 'Bauhaus-inspired minimalist watch with German design heritage. Features a clean dial with slim markers, domed sapphire crystal, precision quartz movement, and a slim case profile for timeless sophistication with modernist principles.',
+  details: {
+      materials: 'Stainless steel case, sapphire crystal, leather strap',
+      fit: 'Case diameter: 38mm. Thickness: 7.5mm. Lug width: 20mm.',
+      care: 'Wipe clean with a soft cloth. Avoid water exposure with leather strap.'
+  },
+  options: {
+      color: ['White Dial/Black Leather', 'Black Dial/Brown Leather', 'White Dial/Mesh Bracelet']
+  }
+},
+{
+  id: 256,
+  name: 'Reversible Leather Belt',
+  brand: 'Salvatore Ferragamo',
+  price: '₹32,000.00',
+  image: 'https://m.media-amazon.com/images/I/71-yoyiRlnL._AC_UY1100_.jpg',
+  category: 'belts',
+  inDemand: true,
+  stock: 45,
+  bestSeller: true,
+  description: 'Versatile reversible belt crafted from premium leather. Features smooth calfskin on one side and textured leather on the reverse, the brand\'s iconic Gancini buckle in polished palladium, and a simple mechanism to switch between black and brown for maximum versatility.',
+  details: {
+      materials: 'Calfskin leather with palladium-plated hardware',
+      fit: 'Width: 3.5cm. Available in sizes 85-120cm.',
+      care: 'Wipe clean with a soft, dry cloth. Store rolled when not in use.'
+  },
+  options: {
+      size: ['85cm', '90cm', '95cm', '100cm', '105cm', '110cm'],
+      color: ['Black/Brown']
+  }
+},
+{
+  id: 257,
+  name: 'Canvas Web Belt',
+  brand: 'Polo Ralph Lauren',
+  price: '₹8,500.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0gQb8sRqjX5Cs-qZmE6jdW_DtVYb7IV_e-g&s',
+  category: 'belts',
+  inDemand: true,
+  stock: 55,
+  bestSeller: false,
+  description: 'Preppy canvas web belt with signature styling. This casual accessory features a durable cotton webbing strap with leather trim, an antique-finish brass buckle with embossed logo, and adjustable sizing for a relaxed yet refined addition to weekend outfits.',
+  details: {
+      materials: 'Cotton webbing with leather trim and brass hardware',
+      fit: 'Width: 3.8cm. One size adjustable up to 120cm.',
+      care: 'Spot clean with mild soap and water. Air dry.'
+  },
+  options: {
+      color: ['Navy/Brown Leather', 'Green/Brown Leather', 'Khaki/Brown Leather', 'Black/Black Leather']
+  }
+},
+{
+  id: 258,
+  name: 'Reversible Leather Belt',
+  brand: 'Salvatore Ferragamo',
+  price: '₹32,000.00',
+  image: 'https://m.media-amazon.com/images/I/71-yoyiRlnL._AC_UY1100_.jpg',
+  category: 'belts',
+  inDemand: true,
+  stock: 45,
+  bestSeller: true,
+  description: 'Versatile reversible belt crafted from premium leather. Features smooth calfskin on one side and textured leather on the reverse, the brand\'s iconic Gancini buckle in polished palladium, and a simple mechanism to switch between black and brown for maximum versatility.',
+  details: {
+      materials: 'Calfskin leather with palladium-plated hardware',
+      fit: 'Width: 3.5cm. Available in sizes 85-120cm.',
+      care: 'Wipe clean with a soft, dry cloth. Store rolled when not in use.'
+  },
+  options: {
+      size: ['85cm', '90cm', '95cm', '100cm', '105cm', '110cm'],
+      color: ['Black/Brown']
+  }
+},
+{
+  id: 259,
+  name: 'Woven Leather Belt',
+  brand: 'Anderson\'s',
+  price: '₹14,800.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW9b-HrCp7d4HxTjigmPL69vMKltfk3fjh9Q&s',
+  category: 'belts',
+  inDemand: false,
+  stock: 32,
+  bestSeller: false,
+  description: 'Artisanal woven leather belt handcrafted in Italy. Features intricately woven leather strips, a brushed nickel buckle, leather keeper, and elasticated construction that provides subtle flexibility for exceptional comfort throughout the day.',
+  details: {
+      materials: 'Woven calfskin leather with nickel-free buckle',
+      fit: 'Width: 3.5cm. Available in sizes 85-120cm.',
+      care: 'Wipe clean with a soft, dry cloth. Avoid prolonged sun exposure.'
+  },
+  options: {
+      size: ['85cm', '90cm', '95cm', '100cm', '105cm', '110cm'],
+      color: ['Brown', 'Navy', 'Black', 'Tan']
+  }
+},
+{
+  id: 260,
+  name: 'Monogram Buckle Belt',
+  brand: 'Gucci',
+  price: '₹42,500.00',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlCOLkew3LvlCwyWHRBQMM441XBN7FI-9QKA&s',
+  category: 'belts',
+  inDemand: true,
+  stock: 38,
+  bestSeller: true,
+  description: 'Iconic belt featuring the brand\'s signature interlocking G buckle. This luxury accessory is crafted from premium leather with a textured surface, antique-finish brass hardware, and the instantly recognizable double G motif for a timeless statement of designer style.',
+  details: {
+      materials: 'Leather with brass hardware',
+      fit: 'Width: 4cm. Available in sizes 85-120cm.',
+      care: 'Wipe clean with a soft, dry cloth. Store in dust bag when not in use.'
+  },
+  options: {
+      size: ['85cm', '90cm', '95cm', '100cm', '105cm', '110cm'],
+      color: ['Black', 'Brown', 'Tan']
+  }
+},
+
+
 
 
 
