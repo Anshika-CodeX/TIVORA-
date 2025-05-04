@@ -230,31 +230,40 @@
     }
   }</style>
 <body>
-  
-  <div class="top-nav">
-    <a href="#">NEW TODAY</a>
-    <a href="#">CLOTHING</a>
-    <a href="#">DRESSES</a>
-    <a href="#">SHOES</a>
-    <a href="#">ACCESSORIES</a>
-    <a href="#">DESIGNERS</a>
-    <a href="#">FESTIVAL</a>
-    <a href="#">SALE</a>
-  </div>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <!-- Logo -->
+      <div class="navbar-logo">
+        <a href="#">TIVORA</a>
+      </div>
+      
+      <!-- Mobile menu toggle -->
+      <div class="navbar-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      
+      <!-- Navigation menu -->
+      <ul class="navbar-menu">
+        <li class="navbar-item"><a href="menHTML.html" class="navbar-link">MEN</a></li>
+        <li class="navbar-item"><a href="women.html" class="navbar-link">WOMEN</a></li>
+        <li class="navbar-item"><a href="finalpage.html" class="navbar-link">MAKEUP</a></li>
 
-  <header>
-    <h1>Fashion Store</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#women">Women</a>
-      <a href="#men">Men</a>
-      <a href="#accessories">Accessories</a>
+        <li class="navbar-item"><a href="main.html" class="navbar-link">ACCESSORIES</a></li>
+        <li class="navbar-item"><a href="perfume.html" class="navbar-link">PERFUMES</a></li>
+        <li class="navbar-item"><a href="#" class="navbar-link">ABOUT US</a></li>
+        <li class="navbar-item"><a href="#" class="navbar-link sign-up" style="height: 25px;">SIGN UP</a></li>
+      </ul>
+
+
       <div class="cart-icon" onclick="openCartModal()">
         <i class="fas fa-shopping-cart"></i>
         <span id="cart-count">0</span>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
+  
 
   <!-- Main Slideshow -->
   <div class="slideshow-container">
@@ -622,5 +631,15 @@
   </div>
 
   <script src="hpscript.js"></script>
+  <script>
+    // Mobile menu toggle functionality
+    const mobileMenu = document.querySelector('#mobile-menu');
+    const navbarMenu = document.querySelector('.navbar-menu');
+    
+    mobileMenu.addEventListener('click', function() {
+      mobileMenu.classList.toggle('active');
+      navbarMenu.classList.toggle('active');
+    });
+  </script>
 </body>
 </html>
