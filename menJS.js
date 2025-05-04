@@ -2587,7 +2587,7 @@ const products = [
   name: 'Oxford Button-Down Shirt',
   brand: 'Brooks Brothers',
   price: '₹11,500.00',
-  image: 'https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-214692_alternate10?$rl_4x5_pdp$',
+  image: 'http://images.bloomingdales.com/is/image/BLM/products/1/optimized/8483131_fpx.tif?wid=1200&qlt=90,0&layer=comp&op_sharpen=0&resMode=sharp2&op_usm=0.7,1.0,0.5,0&fmt=jpeg',
   category: 'shirts',
   inDemand: true,
   stock: 62,
