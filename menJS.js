@@ -3101,26 +3101,7 @@ const products = [
       color: ['Silver Dial/Black Leather', 'Champagne Dial/Brown Leather']
   }
 },
-{
-  id: 253,
-  name: 'Pilot\'s Chronograph',
-  brand: 'IWC',
-  price: '₹650,000.00',
-  image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/i/w/iwc-pilots-iw389101-large.jpg',
-  category: 'watches',
-  inDemand: true,
-  stock: 8,
-  bestSeller: false,
-  description: 'Classic aviation-inspired pilot\'s chronograph with heritage design. Features a highly legible dial with luminous numerals and hands, in-house automatic movement with 7-day power reserve, soft-iron inner case for magnetic field protection, and vintage-inspired aesthetics.',
-  details: {
-      materials: 'Stainless steel case, sapphire crystal, calfskin leather strap',
-      fit: 'Case diameter: 46mm. Thickness: 15.5mm. Lug width: 22mm.',
-      care: 'Regular service every 5 years recommended. Keep away from strong magnetic fields.'
-  },
-  options: {
-      color: ['Black Dial/Brown Leather', 'Blue Dial/Black Leather']
-  }
-},
+
 {
   id: 254,
   name: 'GMT Travel Watch',
