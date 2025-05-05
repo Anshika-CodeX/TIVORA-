@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - StyleHaven</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="auth.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">StyleHaven</a></h1>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mens.html">Men's Clothing</a></li>
+                    <li><a href="womens.html">Women's Clothing</a></li>
+                    <li><a href="makeup.html">Makeup</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="signin.html" class="auth-btn active">Sign In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="auth-container">
+        <div class="auth-card">
+            <div class="auth-forms">
+                <!-- Sign In Form -->
+                <div class="form-container sign-in-container">
+                    <form action="#" id="signin-form">
+                        <h2>Sign In</h2>
+                        <div class="social-container">
+                            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social"><i class="fab fa-google"></i></a>
+                            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <span>or use your account</span>
+                        <div class="form-group">
+                            <input type="email" id="signin-email" placeholder="Email" required />
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="signin-password" placeholder="Password" required />
+                            <span class="error-message"></span>
+                        </div>
+                        <a href="#" class="forgot-password">Forgot your password?</a>
+                        <button type="submit" class="btn primary-btn">Sign In</button>
+                    </form>
+                </div>
+                
+                <!-- Sign Up Form -->
+                <div class="form-container sign-up-container">
+                    <form action="#" id="signup-form">
+                        <h2>Create Account</h2>
+                        <div class="social-container">
+                            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social"><i class="fab fa-google"></i></a>
+                            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <span>or use your email for registration</span>
+                        <div class="form-group">
+                            <input type="text" id="signup-name" placeholder="Name" required />
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="signup-email" placeholder="Email" required />
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="signup-password" placeholder="Password" required />
+                            <span class="error-message"></span>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Sign Up</button>
+                    </form>
+                </div>
+                
+                <!-- Overlay Container -->
+                <div class="overlay-container">
+                    <div class="overlay">
+                        <div class="overlay-panel overlay-left">
+                            <h2>Welcome Back!</h2>
+                            <p>To keep connected with us please login with your personal info</p>
+                            <button class="btn outline-btn" id="signIn">Sign In</button>
+                        </div>
+                        <div class="overlay-panel overlay-right">
+                            <h2>Hello, Friend!</h2>
+                            <p>Enter your personal details and start your journey with us</p>
+                            <button class="btn outline-btn" id="signUp">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>StyleHaven</h3>
+                    <p>Your one-stop destination for fashion and beauty products. We bring you the latest trends at affordable prices.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="mens.html">Men's Clothing</a></li>
+                        <li><a href="womens.html">Women's Clothing</a></li>
+                        <li><a href="makeup.html">Makeup</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 StyleHaven. All Rights Reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="auth.js"></script>
+</body>
+</html>
