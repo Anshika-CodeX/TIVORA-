@@ -363,8 +363,93 @@ const products = [
           { name: 'Jyoti R.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
         ]
       },
+
       {
         id: 27,
+        category: 'Eye Makeup',
+        name: 'Eye Set',
+        price: '₹999.00',
+        image: 'https://is4.fwrdassets.com/images/p/fw/45/PMCG-WU17_V2.jpg',
+        hoverImage: 'https://is4.fwrdassets.com/images/p/fw/45/PMCG-WU17_V1.jpg',
+        description: 'An iconic palette with ten cult-classic shadows that embellish the eyes with single-swipe saturation. Elevate your artistry with formulations that release infinitely smooth and extremely blendable pigments for seamless color transitions and unprecedented buildability.',
+        stock: 3,
+        reviews: [
+          { name: 'Sneha K.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
+          { name: 'Jyoti R.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
+        ]
+      },
+      {
+        id: 28,
+        category: 'Eye Makeup',
+        name: 'Freestyle Color Cream',
+        price: '₹2,029.47',
+        image: 'https://is4.revolveassets.com/images/p4/n/uv/TDRV-WU7_V2.jpg',
+        hoverImage: 'https://is4.revolveassets.com/images/p4/n/uv/TDRV-WU7_V3.jpg',
+        description: 'The silky formula glides on effortlessly, leaving behind a high-shimmer, non-toxic, and buildable glitter makeup look for all-day use. This rose gold creamy eyeshadow can go anywhere-face, body, edges, or hair. Mix and match our shimmery shades to create combinations that are unique to you.',
+        stock: 12,
+        reviews: [
+          { name: 'Sneha K.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
+          { name: 'Jyoti R.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
+        ]
+      },
+      {
+        id: 29,
+        category: 'Eye Makeup',
+        name: 'Brow & Brag Brow And Eye Kit',
+        price: '₹2,452.27',
+        image: 'https://is4.revolveassets.com/images/p4/n/uv/ABEV-WU262_V1.jpg',
+        hoverImage: 'https://is4.revolveassets.com/images/p4/n/z/ABEV-WU1_V3.jpg',
+        description: ' Brow & Brag Duo truly delivers luscious fullness and volume in a swipe, plus instant brow taming for that stunning, no-makeup look you need to seize the summer day in seconds. Full-sized Lash Brag Mascara sweeps on a voluptuously defined, full-volume effect with an intense, jet-black finish that lasts all day. Style, set and lock in shade with full-sized Clear Brow Gel for that clean, polished hold without stiffness.',
+        stock: 10,
+        reviews: [
+          { name: 'Sneha K.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
+          { name: 'Jyoti R.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
+        ]
+      },
+      {
+        id: 30,
+        category: 'Eye Makeup',
+        name: 'Exagger-Eyes Volume Mascara',
+        price: '₹990.00',
+        image: 'https://is4.revolveassets.com/images/p4/n/uv/CTIL-WU499_V1.jpg',
+        hoverImage: 'https://is4.revolveassets.com/images/p4/n/z/CTIL-WU499_V4.jpg',
+        description: 'A volumizing, long-wear mascara for 28-hour volume + curl. The smudge-proof formula gives lashes 9x volume and a 2x curl effect from root-to-tip! The secret to bigger, brighter eyes! Exagger-eyes Volume Mascara is infused with lash-plumping polymers to amplify lashes for intense volume and curl.',
+        stock: 2,
+        reviews: [
+          { name: 'Ankita.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
+          { name: 'Sachin.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
+        ]
+      },
+      {
+        id: 30,
+        category: 'Eye Makeup',
+        name: 'Baked Browns Eyeshadow Palette',
+        price: '₹2000.00',
+        image: 'https://is4.revolveassets.com/images/p4/n/uv/DOSR-WU13_V1.jpg',
+        hoverImage: 'https://is4.revolveassets.com/images/p4/n/uv/DOSR-WU13_V2.jpg',
+        description: 'This warm toned eye shadow palette features 5 ultra pigmented matte brown shades with a smooth buttery feel. The perfect palette for creating a variety of sultry smokey to everyday neutral eye looks..',
+        stock: 5,
+        reviews: [
+          { name: 'Ankita.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
+          { name: 'Sachin.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
+        ]
+      },
+      {
+        id: 31,
+        category: 'Eye Makeup',
+        name: 'Glam Lash Extension Kit',
+        price: '₹990.00',
+        image: 'https://is4.revolveassets.com/images/p4/n/uv/GMNE-WU12_V1.jpg',
+        hoverImage: 'https://is4.revolveassets.com/images/p4/n/uv/GMNE-WU12_V2.jpg',
+        description: 'Tired of applying a new lash for every occasion? Glamnetic is changing the game with the Natural Lash Extension Kit. It has all the tools you need to enhance your natural lashes for up to 5 days wear per lash, with an easy-to-use application - simply bond, lash, and seal.',
+        stock: 10,
+        reviews: [
+          { name: 'Ankita.', date: '2025-04-07', rating: 5, comment: 'Survived a beach day and a wedding! Doesn\'t budge at all.' },
+          { name: 'Sachin.', date: '2025-03-19', rating: 4, comment: 'Great for humid weather. Gives amazing length and volume.' }
+        ]
+      },
+      {
+        id: 31,
         category: 'Lip Products',
         name: 'Lip Butter Balm',
         price: '₹1,200.00',
@@ -576,11 +661,12 @@ const products = [
       {
         id: 42,
         category: 'Lip Products',
-        name: 'Nude Love Lip Palette',
+        name: 'Nude Natural Lips Kit',
+
         price: '₹600.00',
-        image: 'https://is4.revolveassets.com/images/p4/n/z/NDSX-WU153_V1.jpg',
-        hoverImage: 'https://is4.revolveassets.com/images/p4/n/z/NDSdX-WU153_V2.jpg',
-        description: 'This versatile lip palette features six complementary nude shades ranging from pale beige to deep brown. The creamy, highly pigmented formula applies smoothly and can be mixed to create custom colors for any skin tone or occasion. Includes a lip brush for precise application and a mirror for on-the-go touch-ups, making it perfect for travel or everyday use.',
+        image: 'https://is4.revolveassets.com/images/p4/n/uv/NDSX-WU141_V2.jpg',
+        hoverImage: 'https://is4.revolveassets.com/images/p4/n/uv/NDSX-WU141_V1.jpg',
+        description: 'This exclusive kit features three mini, GEL COLOR LIP + CHEEK BALMS in carefully curated shades to match their individual perfect nude lip color. Packaged in a 100% reusable, portable, mini tin with mirror, this three-piece mini lip kit contains everything you need to create a perfectly juicy pout on-the-go.',
         stock: 15,
         reviews: [
           { name: 'Reena J.', date: '2025-04-17', rating: 5, comment: 'Love being able to mix shades for my perfect nude! Great pigmentation.' },

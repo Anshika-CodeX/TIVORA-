@@ -1754,26 +1754,7 @@ const products = [
       color: ['Blue Dial/Steel Bracelet', 'Black Dial/Steel Bracelet', 'Black Dial/Leather Strap']
   }
 },
-{
-  id: 184,
-  name: 'Dive Watch',
-  brand: 'Omega',
-  price: '₹425,000.00',
-  image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/o/m/omega-seamaster-210-30-42-20-10-001-large.jpg',
-  category: 'watches',
-  inDemand: true,
-  stock: 15,
-  bestSeller: false,
-  description: 'Professional dive watch with legendary underwater heritage. This high-performance timepiece features a unidirectional rotating bezel, helium escape valve, highly luminous dial and hands, co-axial master chronometer movement, and water resistance to 300 meters.',
-  details: {
-      materials: 'Stainless steel case and bracelet, sapphire crystal, ceramic bezel',
-      fit: 'Case diameter: 42mm. Thickness: 13.5mm. Lug width: 20mm.',
-      care: 'Rinse with fresh water after exposure to saltwater. Service every 5-8 years.'
-  },
-  options: {
-      color: ['Blue Dial/Blue Bezel', 'Black Dial/Black Bezel', 'White Dial/Blue Bezel']
-  }
-},
+
 {
   id: 185,
   name: 'Minimalist Quartz Watch',
@@ -1794,26 +1775,7 @@ const products = [
       color: ['White Dial/Black Leather', 'Black Dial/Brown Leather', 'White Dial/Mesh Bracelet']
   }
 },
-{
-  id: 186,
-  name: 'Pilot\'s Watch',
-  brand: 'IWC',
-  price: '₹650,000.00',
-  image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/i/w/iwc-pilots-iw389101-large.jpg',
-  category: 'watches',
-  inDemand: true,
-  stock: 8,
-  bestSeller: false,
-  description: 'Classic aviation-inspired pilot\'s watch with heritage design. This precision timepiece features a highly legible dial with luminous numerals and hands, in-house automatic movement with 7-day power reserve, soft-iron inner case for magnetic field protection, and vintage-inspired aesthetics.',
-  details: {
-      materials: 'Stainless steel case, sapphire crystal, calfskin leather strap',
-      fit: 'Case diameter: 46mm. Thickness: 15.5mm. Lug width: 22mm.',
-      care: 'Regular service every 5 years recommended. Keep away from strong magnetic fields.'
-  },
-  options: {
-      color: ['Black Dial/Brown Leather', 'Blue Dial/Black Leather']
-  }
-},
+
 {
   id: 187,
   name: 'Dress Watch with Leather Strap',
@@ -1895,46 +1857,7 @@ const products = [
       color: ['Black Dial/Black Bezel', 'Blue Dial/Blue Bezel', 'Black Dial/Fabric Strap']
   }
 },
-{
-  id: 191,
-  name: 'Skeleton Dial Watch',
-  brand: 'Zenith',
-  price: '₹550,000.00',
-  image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/z/e/zenith-defy-03-9300-3620-78-i001.jpg',
-  category: 'watches',
-  inDemand: true,
-  stock: 7,
-  bestSeller: false,
-  description: 'Avant-garde skeleton dial watch showcasing horological artistry. This exceptional timepiece features an openworked dial revealing the high-frequency El Primero movement, chronograph functionality, sapphire crystal case back, and a sophisticated fusion of technical innovation and artistic design.',
-  details: {
-      materials: 'Stainless steel case, sapphire crystal front and back, alligator leather strap',
-      fit: 'Case diameter: 42mm. Thickness: 14mm. Lug width: 22mm.',
-      care: 'Service every 5 years. Store in watch winder when not in use. Avoid magnetic fields.'
-  },
-  options: {
-      color: ['Silver Skeleton/Black Leather', 'Black Skeleton/Black Leather']
-  }
-},
-{
-  id: 192,
-  name: 'GMT Travel Watch',
-  brand: 'Rolex',
-  price: '₹950,000.00',
-  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4OnP0wem69jvj0iI7l9y920z1BUdP4wzimw&s',
-  category: 'watches',
-  inDemand: true,
-  stock: 10,
-  bestSeller: true,
-  description: 'Iconic dual time zone watch designed for global travelers. This prestigious timepiece features a bidirectional rotatable 24-hour bezel, additional GMT hand, superlative chronometer certified movement, and the brand\'s signature Oyster case with water resistance to 100 meters.',
-  details: {
-      materials: 'Oystersteel case and bracelet, Cerachrom ceramic bezel, sapphire crystal',
-      fit: 'Case diameter: 40mm. Thickness: 12mm. Oyster bracelet with Easylink extension.',
-      care: 'Service every 10 years. Rinse with fresh water after exposure to saltwater.'
-  },
-  options: {
-      color: ['Black/Blue Bezel', 'Black/Red Bezel', 'Blue Dial']
-  }
-},
+
 
 // Sunglasses (IDs 193-202)
 {
@@ -3158,46 +3081,7 @@ const products = [
       color: ['Blue Dial/Blue Bezel', 'Black Dial/Black Bezel', 'White Dial/Blue Bezel']
   }
 },
-{
-  id: 252,
-  name: 'Dress Watch with Leather Strap',
-  brand: 'Jaeger-LeCoultre',
-  price: '₹750,000.00',
-  image: 'https://img.jaeger-lecoultre.com/mega-menu-list-3/0a652a122ea0365fd7a0e11c5d4097c676a251ea.jpg',
-  category: 'watches',
-  inDemand: true,
-  stock: 12,
-  bestSeller: true,
-  description: 'Ultra-thin dress watch with sophisticated elegance. Features a hand-finished in-house movement, guilloché dial with applied hour markers, dauphine hands, sapphire crystal case back, and alligator leather strap for refined formal style.',
-  details: {
-      materials: 'Rose gold case, sapphire crystal, alligator leather strap',
-      fit: 'Case diameter: 40mm. Thickness: 7.5mm. Lug width: 20mm.',
-      care: 'Service every 5 years. Store in watch winder when not in use. Avoid water exposure.'
-  },
-  options: {
-      color: ['Silver Dial/Black Leather', 'Champagne Dial/Brown Leather']
-  }
-},
-{
-  id: 253,
-  name: 'Pilot\'s Chronograph',
-  brand: 'IWC',
-  price: '₹650,000.00',
-  image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/i/w/iwc-pilots-iw389101-large.jpg',
-  category: 'watches',
-  inDemand: true,
-  stock: 8,
-  bestSeller: false,
-  description: 'Classic aviation-inspired pilot\'s chronograph with heritage design. Features a highly legible dial with luminous numerals and hands, in-house automatic movement with 7-day power reserve, soft-iron inner case for magnetic field protection, and vintage-inspired aesthetics.',
-  details: {
-      materials: 'Stainless steel case, sapphire crystal, calfskin leather strap',
-      fit: 'Case diameter: 46mm. Thickness: 15.5mm. Lug width: 22mm.',
-      care: 'Regular service every 5 years recommended. Keep away from strong magnetic fields.'
-  },
-  options: {
-      color: ['Black Dial/Brown Leather', 'Blue Dial/Black Leather']
-  }
-},
+
 {
   id: 254,
   name: 'GMT Travel Watch',

@@ -7,37 +7,270 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="hpstyles.css">
 </head>
-<body>
+<style>/* Navbar Styling */
+  .navbar {
+    background-color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
   
-  <div class="top-nav">
-    <a href="#">NEW TODAY</a>
-    <a href="#">CLOTHING</a>
-    <a href="#">DRESSES</a>
-    <a href="#">SHOES</a>
-    <a href="#">ACCESSORIES</a>
-    <a href="#">DESIGNERS</a>
-    <a href="#">FESTIVAL</a>
-    <a href="#">SALE</a>
-  </div>
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    height: 80px;
+    padding: 0 50px;
+  }
+  
+  .navbar-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-logo a:hover {
+    color: #ff4c8b;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    height: 80px;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    color: #000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .navbar-link:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #ff4c8b;
+    bottom: 25px;
+    left: 0;
+    transition: width 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #ff4c8b;
+  }
+  
+  .navbar-link:hover:after {
+    width: 100%;
+  }
+  
+  .sign-up {
+    background-color: #ff4c8b;
+    color: #fff !important;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  .sign-up:hover {
+    background-color: #e6447d;
+  }
+  
+  .sign-up:after {
+    display: none;
+  }
+  
+  .cart-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .cart-icon i {
+    font-size: 1.2rem;
+    color: #000;
+    transition: color 0.3s ease;
+  }
+  
+  .cart-icon:hover i {
+    color: #ff4c8b;
+  }
+  
+  #cart-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #ff4c8b;
+    color: white;
+    font-size: 0.7rem;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-toggle {
+    display: none;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #000;
+    display: block;
+  }
+  
+  /* Mobile Responsive */
+  @media screen and (max-width: 960px) {
+    .navbar-container {
+      padding: 0 30px;
+    }
+  
+    .navbar-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 0;
+      transition: all 0.5s ease;
+      height: 90vh;
+      overflow-y: auto;
+      background-color: white;
+    }
+  
+    .navbar-menu.active {
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+      padding-top: 20px;
+    }
+  
+    .navbar-item {
+      width: 100%;
+      height: 60px;
+      padding: 0;
+    }
+  
+    .navbar-link {
+      text-align: center;
+      width: 100%;
+      display: table;
+      padding: 20px;
+      height: auto;
+    }
+  
+    .navbar-link:after {
+      bottom: 15px;
+    }
+  
+    .sign-up {
+      margin: 10px auto;
+      width: 80%;
+      text-align: center;
+    }
+  
+    .navbar-toggle {
+      display: block;
+      cursor: pointer;
+      margin-right: 15px;
+    }
+  
+    .navbar-toggle.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .navbar-toggle.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .navbar-toggle.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  }</style>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <!-- Logo -->
+      <div class="navbar-logo">
+        <a href="#">TIVORA</a>
+      </div>
+      
+      <!-- Mobile menu toggle -->
+      <div class="navbar-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      
+      <!-- Navigation menu -->
+      <ul class="navbar-menu">
+        <li class="navbar-item"><a href="homepage.html" class="navbar-link">HOME</a></li>
 
-  <header>
-    <h1>Fashion Store</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#women">Women</a>
-      <a href="#men">Men</a>
-      <a href="#accessories">Accessories</a>
+        <li class="navbar-item"><a href="menHTML.html" class="navbar-link">MEN</a></li>
+        <li class="navbar-item"><a href="women.html" class="navbar-link">WOMEN</a></li>
+        <li class="navbar-item"><a href="finalpage.html" class="navbar-link">MAKEUP</a></li>
+
+        <li class="navbar-item"><a href="main.html" class="navbar-link">ACCESSORIES</a></li>
+        <li class="navbar-item"><a href="perfume.html" class="navbar-link">PERFUMES</a></li>
+        <li class="navbar-item"><a href="aboutus.html" class="navbar-link">ABOUT US</a></li>
+        <li class="navbar-item"><a href="signin.html" class="navbar-link sign-up" style="height: 25px;">SIGN UP</a></li>
+      </ul>
+
+
       <div class="cart-icon" onclick="openCartModal()">
         <i class="fas fa-shopping-cart"></i>
         <span id="cart-count">0</span>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
+  
 
   <!-- Main Slideshow -->
   <div class="slideshow-container">
     <div class="slide active">
-      <img src="https://in.benetton.com/cdn/shop/files/ADULT-spotlightbig-tailored_690x459_crop_center.jpg?v=1731005374" alt="Fashion Collection">
+      <img src="https://is4.revolveassets.com/images/up/2025/May/050425_rw_summerpreview_01.jpg" alt="Fashion Collection">
       <div class="slide-caption">
         <h2>New Season Collection</h2>
         <p>Discover our latest arrivals for the new season.</p>
@@ -186,6 +419,19 @@
     </div>
     <div class="view-all-container">
       <button class="view-all-btn"><a href="main.html">View All Accessories</a></button>
+    </div>
+  </section>
+
+  <section id="women-makeup" class="section product-category">
+    <div class="section-header">
+      <h2>Perfumes</h2>
+      <p>"Unveil your signature scent."</p>
+    </div>
+    <div class="products-row">
+      <!-- Makeup products will be loaded here -->
+    </div>
+    <div class="view-all-container">
+      <button class="view-all-btn"><a href="perfume.html">View All Perfumes</a></button>
     </div>
   </section>
 
@@ -400,5 +646,15 @@
   </div>
 
   <script src="hpscript.js"></script>
+  <script>
+    // Mobile menu toggle functionality
+    const mobileMenu = document.querySelector('#mobile-menu');
+    const navbarMenu = document.querySelector('.navbar-menu');
+    
+    mobileMenu.addEventListener('click', function() {
+      mobileMenu.classList.toggle('active');
+      navbarMenu.classList.toggle('active');
+    });
+  </script>
 </body>
 </html>
