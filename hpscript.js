@@ -306,6 +306,93 @@ const products = {
         ]
     },
     ],
+
+    Perfumes:[
+      {
+        id: 18,
+        category: 'Perfumes',
+        name: 'Mitti Attar',
+        price: '₹999.00',
+        image: 'https://i.pinimg.com/474x/f9/19/82/f91982bbae2a5b34d520b9b5a5d30542.jpg',
+        hoverImage: 'https://i.pinimg.com/474x/c6/5f/e8/c65fe8e361ee1e132574323d60ca877d.jpg',
+        description: 'The scent of earth after the first rain (petrichor). A nostalgic and grounding fragrance that captures the essence of Indian monsoons.',
+        stock: 30,
+        reviews: [
+          { name: 'Rajesh P.', date: '2025-04-05', rating: 5, comment: 'Takes me back to childhood monsoons. So authentic!' },
+          { name: 'Kavita M.', date: '2025-03-18', rating: 5, comment: 'The most realistic petrichor scent. Absolutely love it.' }
+        ]
+      },
+      {
+        id: 19,
+        category: 'Perfumes',
+        name: 'Shamama Attar',
+        price: '₹3,199.00',
+        image: 'https://i.pinimg.com/474x/7e/6c/7c/7e6c7cc0739684af45632ec4ba21b4e7.jpg',
+        hoverImage: 'https://i.pinimg.com/474x/23/5b/f8/235bf88a7db93d2f1f75074059fbba70.jpg',
+        description: 'A complex blend of over 40 herbs and spices, aged for years. A royal fragrance with deep historical significance in Indian perfumery.',
+        stock: 15,
+        reviews: [
+          { name: 'Anand K.', date: '2025-04-05', rating: 5, comment: 'Complex and regal. A true masterpiece of traditional perfumery.' },
+          { name: 'Rahul M.', date: '2025-03-18', rating: 5, comment: 'Like nothing I\'ve ever smelled before. Worth every rupee.' }
+        ]
+      },
+      {
+        id: 20,
+        category: 'Perfumes',
+        name: 'Kewda Attar',
+        price: '₹1,499.00',
+        image: 'https://i.pinimg.com/474x/29/60/42/29604204fb790fd638385987ebd5d099.jpg',
+        hoverImage: 'https://i.pinimg.com/474x/35/c7/b9/35c7b9e105acac48317c56c215aeb754.jpg',
+        description: 'Distilled from the flowers of the screw pine, this attar has a unique floral-green scent. Traditional in Indian ceremonies and celebrations.',
+        stock: 20,
+        reviews: [
+          { name: 'Vikram P.', date: '2025-04-05', rating: 5, comment: 'Such a unique floral scent. Reminds me of temple visits.' },
+          { name: 'Meena M.', date: '2025-03-18', rating: 4, comment: 'Beautiful and authentic. Lasts surprisingly long.' }
+        ]
+      },
+      {
+        id: 21,
+        category: 'Perfumes',
+        name: 'Oudh Attar',
+        price: '₹4,899.00',
+        image: 'https://i.pinimg.com/474x/4b/c7/66/4bc76699a29188bb59280a824538dfd4.jpg',
+        hoverImage: 'https://i.pinimg.com/474x/34/44/96/3444965e4424b7896d3af7d615d20875.jpg',
+        description: 'Rare and precious agarwood oil with a deep, woody, and slightly sweet aroma. One of the most expensive natural raw materials in perfumery.',
+        stock: 8,
+        reviews: [
+          { name: 'Farhan A.', date: '2025-04-05', rating: 5, comment: 'The most authentic oud I\'ve found in India. Exceptional quality.' },
+          { name: 'Zara K.', date: '2025-03-18', rating: 5, comment: 'Rich, complex, and long-lasting. A true luxury.' }
+        ]
+      },
+      {
+        id: 22,
+        category: 'Perfumes',
+        name: 'Mogra Attar',
+        price: '₹1,499.00',
+        image: 'https://i.pinimg.com/474x/55/3a/c2/553ac2e6a87750b9e707817f823b5e66.jpg',
+        hoverImage: 'https://i.pinimg.com/736x/50/11/4b/50114b8e8ca20a71f70378254cce0df5.jpg',
+        description: 'Jasmine sambac (Arabian jasmine) distilled in the traditional method. A rich, sweet, and intoxicating white floral scent.',
+        stock: 22,
+        reviews: [
+          { name: 'Priya D.', date: '2025-04-05', rating: 5, comment: 'The most beautiful jasmine scent. Pure and natural.' },
+          { name: 'Neha R.', date: '2025-03-18', rating: 5, comment: 'Reminds me of summer evenings in my grandmother\'s garden.' }
+        ]
+      },
+      {
+        id: 23,
+        category: 'Collection',
+        name: 'Summer Breeze Collection',
+        price: '₹7,799.00',
+        image: 'https://i.pinimg.com/474x/28/f5/67/28f5678c9b29449358ce64ceac81301e.jpg',
+        hoverImage: 'https://i.pinimg.com/474x/3b/0a/64/3b0a648f7aa0680ba5b9f120d077e4ae.jpg',
+        description: 'A set of three light, fresh fragrances perfect for summer: Citrus Splash, Ocean Breeze, and Tropical Sunset. Each 30ml bottle captures a different summer mood.',
+        stock: 15,
+        reviews: [
+          { name: 'Anjali P.', date: '2025-04-05', rating: 5, comment: 'Perfect summer scents! The Tropical Sunset is my favorite.' },
+          { name: 'Kavita M.', date: '2025-03-18', rating: 4, comment: 'Great value for three quality fragrances. Love the variety.' }
+        ]
+      },
+    ],
     menProducts: [
       {
         id: 101,
