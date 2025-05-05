@@ -307,7 +307,8 @@ const products = {
     },
     ],
 
-    Perfumes:[
+    PerfumeContainer :[
+    
       {
         id: 18,
         category: 'Perfumes',
@@ -723,6 +724,14 @@ const products = {
       accessoriesContainer.innerHTML = '';
       products.womenAccessories.forEach(product => {
         accessoriesContainer.innerHTML += createProductHTML(product);
+      });
+    }
+
+    const Perfumes = document.querySelector('#Perfumes .products-row');
+    if (Perfumes) {
+     Perfumes.innerHTML = '';
+      products.PerfumeContainer.forEach(product => {
+        Perfumes.innerHTML += createProductHTML(product);
       });
     }
     
