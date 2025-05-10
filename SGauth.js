@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (isValid) {
                 // Here you would typically send the data to a server
                 alert('Account created successfully!');
-                window.location.href = 'homepage.html'; // Redirect to home page
+                window.location.href = 'index.html'; // Redirect to home page
             }
         });
     }
